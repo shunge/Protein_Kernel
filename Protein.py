@@ -5,9 +5,9 @@ testingData = []
 
 def loadData():
     global trainingData, testingData
-    f = open('hw5train.txt', 'r')
+    f = open('train.txt', 'r')
     trainingData = [(line.split()) for line in f]
-    f = open ('hw5test.txt', 'r')
+    f = open ('test.txt', 'r')
     testingData = [(line.split()) for line in f]
     #print trainingData
 
